@@ -54,13 +54,25 @@ Tracks usage from 18 AI codingtools in a unified dashboard:
 
 ### Installation
 
+**Using npm (global install - recommended):**
 ```bash
-npm install
+npm install -g @mikeyxyz/tokenlens
+tokenlens
 ```
 
-### Development
+**Using npx (no install required):**
+```bash
+npx @mikeyxyz/tokenlens
+```
 
-Start both the Reactfrontend and Express API server:
+**Using pnpm:**
+```bash
+pnpm add -g @mikeyxyz/tokenlens
+```
+
+### Local Development
+
+Start both the React frontend and Express API server:
 
 ```bash
 npm run dev
@@ -75,7 +87,7 @@ npm run dev:client  # Vite frontend only (port 5173)
 npm run dev:server   # API server only (port 3456)
 ```
 
-### ProductionBuild
+### Production Build
 
 ```bash
 npm run build
@@ -254,8 +266,8 @@ export type Provider = {
 
 TokenLens is inspired by and builds upon two excellent open-source projects:
 
-- **[tokendash](https://github.com/samber/tokendash)** — The original token tracking dashboard that pioneered local AI usage monitoring. TokenLens drawsheavily from tokendash's approach to session parsing, heatmap visualization, and provider architecture.
-- **[codeburn](https://github.com/samber/codeburn)** — A code analysis CLI tool that TokenLens adapts for parsing session data and extracting codechange metrics.
+- **[tokendash](https://github.com/zhangferry/tokendash)** — The original token tracking dashboard that pioneered local AI usage monitoring. TokenLens drawsheavily from tokendash's approach to session parsing, heatmap visualization, and provider architecture.
+- **[codeburn](https://github.com/getagentseal/codeburn)** — A code analysis CLI tool that TokenLens adapts for parsing session data and extracting codechange metrics.
 
 We extend our thanks to the authors of these projects for their innovative work in theopen-source community.
 
