@@ -18,14 +18,14 @@ GitHub Copilot CLI token 使用分析仪表板，包含高级洞察功能
 ### 方式 1: 从 .tgz 文件安装（最快）
 
 ```bash
-# 下载 mikeyxyz-tokenlens-0.2.0.tgz 文件后
-npm install -g ./mikeyxyz-tokenlens-0.2.0.tgz
+# 下载 tokenlens-extended.tgz 文件后
+npm install -g ./tokenlens-extended.tgz
 ```
 
 ### 方式 2: 从 GitHub 安装
 
 ```bash
-npm install -g github:mikeymiaoxyz/tokenlens
+npm install -g github:lafengxiaoyu/tokenlens-extended
 ```
 
 ### 方式 3: 从 npm 安装（如已发布）

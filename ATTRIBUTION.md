@@ -28,6 +28,6 @@ This extended version includes the following additions:
 This derivative work maintains the original MIT License. All modifications are also licensed under MIT.
 
 Copyright (c) 2026 mikeymiaoxyz (original work)
-Copyright (c) 2026 [Your Company/Name] (modifications)
+Copyright (c) 2026 lafengxiaoyu (modifications)
 
 See LICENSE file for full license text.

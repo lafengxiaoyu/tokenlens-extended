@@ -1,6 +1,6 @@
 {
-  "name": "@yourcompany/tokenlens-extended",
-  "version": "0.2.0-ing.1",
+  "name": "@lafengxiaoyu/tokenlens-extended",
+  "version": "0.2.1",
   "type": "module",
   "description": "GitHub Copilot CLI token usage dashboard with advanced insights (Extended version based on @mikeyxyz/tokenlens)",
   "main": "./dist/server/index.js",
